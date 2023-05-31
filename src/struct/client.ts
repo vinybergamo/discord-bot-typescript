@@ -35,6 +35,6 @@ export class Client extends DiscordClient {
 
   private whenReady() {
     console.clear();
-    console.log("Bot is ready");
+    console.log("Bot is ready".green);
   }
 }
