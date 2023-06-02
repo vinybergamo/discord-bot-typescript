@@ -1,6 +1,10 @@
 {
   "name": "discord-bot-typescript",
   "packageManager": "yarn@3.5.1",
+  "scripts": {
+    "build": "tsc",
+    "start": "node dist/index.js"
+  },
   "dependencies": {
     "colors": "^1.4.0",
     "discord.js": "^14.11.0",
